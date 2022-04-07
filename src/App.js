@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+//import FunctionEvent from "./components/FunctionEvent";
+//import Profile from "./components/Profile";
+//import Hello from "./components/Hello";
+//import Message from "./components/Message";
+//import ClassEvent from "./components/ClassEvent";
+//import Counter from "./components/Counter";
+//import FunctionalCounter from "./components/FunctionalCounter";
+//import ConditionalRendering from "./components/ConditionalRendering";
+//import Product from "./components/Product";
+import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Form />
     </div>
   );
 }
