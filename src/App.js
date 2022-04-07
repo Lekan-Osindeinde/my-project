@@ -8,11 +8,12 @@ import "./App.css";
 //import FunctionalCounter from "./components/FunctionalCounter";
 //import ConditionalRendering from "./components/ConditionalRendering";
 //import Product from "./components/Product";
-import Form from "./components/Form";
+//import Form from "./components/Form";
+import Todo from "./components/Todo";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Todo />
     </div>
   );
 }
