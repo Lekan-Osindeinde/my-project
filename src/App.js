@@ -9,11 +9,12 @@ import "./App.css";
 //import ConditionalRendering from "./components/ConditionalRendering";
 //import Product from "./components/Product";
 //import Form from "./components/Form";
-import Todo from "./components/Todo";
+//import Todo from "./components/Todo";
+import InlineComponent from "./components/InlineComponent";
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <InlineComponent />
     </div>
   );
 }
