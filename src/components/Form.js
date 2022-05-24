@@ -51,6 +51,7 @@ class Form extends Component {
       date: this.state.date,
     });
   };
+
   render() {
     return (
       <div>
